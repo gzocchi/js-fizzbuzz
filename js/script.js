@@ -3,14 +3,13 @@
 // Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
 for (i = 1; i <= 100; i++) {
-    if (i % 3 == 0 && i % 5 == 0) {
+    if (i % 3 == 0 && i % 5 == 0) { // numero multiplo di 3 e di 5 --> FizzBuzz
         console.log("FizzBuzz");
-    } else if (i % 3 == 0) {
+    } else if (i % 3 == 0) {        // numero multiplo di 3 --> Fizz
         console.log("Fizz");
-    }
-    else if (i % 5 == 0) {
+    } else if (i % 5 == 0) {        // numero multiplo di 5 --> Buzz
         console.log("Buzz");
-    } else {
+    } else {                        // numero non multiplo di 3 o 5
         console.log(i);
     }  
 };
